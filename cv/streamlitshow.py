@@ -8,9 +8,9 @@ st.write(
 )  # description and instructions
 
 col1, col2, col3 = st.columns(3)
-left_image = Image.open(".\im2.png").convert("RGB")
-right_image = Image.open(".\im3.png").convert("RGB")
-segments = Image.open(".\im4.jpg").convert("RGB")
+left_image = Image.open(".\cv\im2.png").convert("RGB")
+right_image = Image.open(".\cv\im3.png").convert("RGB")
+segments = Image.open(".\cv\im4.jpg").convert("RGB")
 col1.header("left")
 col1.image(left_image, use_column_width=True)
 col2.header("right")
